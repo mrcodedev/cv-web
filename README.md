@@ -1,2 +1,2 @@
-# cv-web
-Creation of my personal web page where I teach my Curriculum Vitae
+# Curriculum Vitae Web
+Creación de mi Curriculum Vitae, presentándolo en una web y añadiendo varias cosas interactivas como DialogFlow.
