@@ -1,0 +1,253 @@
+body {
+     background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 25px 0;
+  line-height: 1.1; 
+}
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+     margin-top: 0; 
+}
+
+h1 {
+     font-size: 36px; 
+}
+   
+h2 {
+     font-size: 26px; 
+}
+
+h3 {
+     font-size: 24px; 
+}
+
+h4 {
+     font-size: 22px; 
+}
+
+h5 {
+     font-size: 18px; 
+}
+
+h6 {
+     font-size: 16px; 
+}
+
+.clearfix:before, .clearfix:after {
+     content: " ";
+     display: table; 
+}
+
+.clearfix:after {
+     clear: both; 
+}
+
+.clearfix {
+     *zoom: 1; 
+}
+
+.wrapper {
+     opacity: 1;
+     visibility: visible;
+     position: relative;
+     overflow: hidden;
+
+}
+
+.header {
+     position: relative;
+     box-sizing: content-box;
+     display: block;
+}
+
+.head-bg{
+     height: 515px;
+     display: block;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 1;
+     position: absolute;
+     background-size: cover;
+     background-color: #242832;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-image: url('../img/background.jpg');
+}
+
+.content {
+     z-index: 2;
+     position: relative;
+}
+
+.container-profile {
+     margin-top: 100px;
+     background-color: white;
+}
+
+.section-box {
+     padding: 0;
+}
+
+.profile {
+     padding: 57px 50px 15px 50px;
+}
+
+.profile-photo img {
+     width: 100%;
+     display: block;
+}
+
+img {
+     border: 0;
+     height: auto;
+     max-width: 100%;
+     vertical-align: middle;
+}
+
+.profile-photo {
+     margin-right: 10%;
+     margin-bottom: 10px;
+}
+
+.profile-info {
+     color: #3d4451;
+     padding-bottom: 25px;
+     margin-bottom: 25px;
+     border-bottom: 1px solid #dedede;
+}
+
+.profile-preword {
+     margin-bottom: 28px;
+}
+
+
+.profile-preword {
+     margin-bottom: 28px; 
+}
+
+.profile-preword span {
+     color: #fff;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 1.1;
+     display: inline-block;
+     padding: 7px 12px;
+     text-transform: uppercase;
+     position: relative;
+     background-color: #07cb79;
+     
+}
+
+.profile-preword span:before {
+     content: '';
+     width: 0;
+     height: 0;
+     top: 100%;
+     left: 5px;
+     display: block;
+     position: absolute;
+     border-style: solid;
+     border-width: 0 0 8px 8px;
+     border-color: transparent;
+     border-left-color: #07cb79;
+}
+
+.profile-title {
+     font-size: 36px;
+     line-height: 1.1;
+     font-weight: 700;
+     margin-bottom: 5px;
+}
+
+.profile-title span {
+     font-weight: 300;
+}
+
+.profile-position {
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.1;
+     margin-bottom: 0;
+}
+
+.profile-list {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+
+.profile-list li {
+     margin-bottom: 13px;
+}
+
+.profile-list .title {
+     display: blocK;
+     width: 120px;
+     float: left;
+     color: #333333;
+     font-size: 12px;
+     font-weight: 700;
+     line-height: 20px;
+     text-transform: uppercase;
+}
+
+.profile-list .cont {
+     display: block;
+     margin-left: 125px;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 20px;
+     color: #9da0a7;
+}
+
+.profile-social {
+     background-color: #07cb79;
+     padding: 15px 0;
+}
+
+.social {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-align: center;
+}
+
+.social li {
+     display: inline-block;
+     margin: 5px 15px;
+}
+
+.social li a .rsicon {
+     color: white;
+     font-size: 20px;
+     line-height: 45px;
+     display: block;
+}
+
+.container-profile-resume {
+     margin-top: 50px;
+     background-color: white;
+}
+
+.profile-resume-title {
+     font-size: 36px;
+     line-height: 1.1;
+     font-weight: 700;
+     margin-bottom: 35px;
+     color: #07cb79;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.profile-resume {
+     padding: 57px 50px 15px 50px;
+}
+
+.botones-footer {
+     border-top: 1px solid rgba(160,160,160, .2);
+     padding: 25px 50px 25px 50px;
+}
