@@ -55,8 +55,13 @@ h6 {
      visibility: visible;
      position: relative;
      overflow: hidden;
-
 }
+
+.btn, .green-button-cv {
+     background-color: #07cb79;
+}
+
+
 
 .header {
      position: relative;
@@ -244,10 +249,443 @@ img {
 }
 
 .profile-resume {
-     padding: 57px 50px 15px 50px;
+     padding: 35px 50px 25px 50px;
 }
 
 .botones-footer {
      border-top: 1px solid rgba(160,160,160, .2);
-     padding: 25px 50px 25px 50px;
+     padding: 25px 50px 5px 50px;
+}
+
+#experience {
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+.experience-title {
+     font-size: 36px;
+     line-height: 1.1;
+     font-weight: 700;
+     margin-bottom: 35px;
+     color: #07cb79;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+h2.title-experience {
+     font-size: 28px;
+     line-height: 1.1;
+     font-weight: 700;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);   
+}
+
+span.puesto {
+     font-weight: 600;
+     font-style: italic;
+}
+
+div.logo-empresa img.logo-img {
+     display: block; 
+     margin: auto;
+     padding-top: 12px;
+}
+
+
+#education {
+     margin-top: 80px;
+     margin-bottom: 50px;
+}
+
+div.timeline-item.evildesigns {
+     margin-top: -200px;
+}
+
+div.timeline-item.deportivo-orihuela {
+     margin-top: -150px;
+}
+
+div.timeline-item.nextel {
+     margin-top: -260px;
+}
+
+div.timeline-item.orihuela-cultural {
+     margin-top: -80px;
+}
+
+div.timeline-item.juguetilandia {
+     margin-top: -350px;
+}
+
+div.timeline-item.beep {
+     margin-top: 50px;
+}
+
+div.timeline-item.google-marketing {
+     margin-top: -200px;
+}
+
+div.timeline-item.google-emprende {
+     margin-top: -100px;
+}
+
+div.timeline-item.foto-isabel {
+     margin-top: -180px;
+}
+
+div.timeline-item.foto-paco {
+     margin-top: -180px;
+}
+
+div.timeline-item.musica-leganes {
+     margin-top: -50px;
+}
+
+div.timeline-item.asi-modulo {
+     margin-top: -180px;
+}
+
+div.timeline-item.bachillerato {
+     margin-top: -50px;
+}
+
+section#skills {
+     margin-top: 70px;
+}
+
+.skills-title {
+     font-size: 36px;
+     line-height: 1.1;
+     font-weight: 700;
+     margin-bottom: 20px;
+     color: #07cb79;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.skills-card {
+     background-color: #07cb79;
+     margin-bottom: 40px;
+}
+
+.card-content {
+     padding: 40px;
+     border-radius: 0 0 2px 2px;
+}
+
+.skills-title {
+     margin: 15px 0;
+}
+
+.title-skill {
+     color: white;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+     font-weight: 500;
+     font-size: 20px;
+}
+
+.skillbar {
+     position: relative;
+     display: block;
+     margin-bottom: 17px;
+     margin-top: 45px;
+     width: 100%;
+     padding: 0 0;
+     background: #05985a;
+     height: 4px;
+ }
+
+.skillbar-title {
+     position: absolute;
+     top: 0;
+     left: 0;
+     font-size: 1em;
+ }
+
+.skillbar-title span {
+     display: block;
+     padding: 3px 0;
+     margin-top: -25px;
+     line-height: 15px;
+     color: #fff;
+}
+
+.skillbar-bar {
+     height: 4px;
+     width: 0;
+     background: #fff;
+}
+
+.skill-bar-percent {
+     position: absolute;
+     right: 1px;
+     top: -20px;
+     font-size: .8em;
+     line-height: 15px;
+     color: #fff;
+}
+
+.skill-html5 {
+     width: 90%;
+}
+
+.skill-css3 {
+     width: 85%;
+}
+
+.skill-jquery {
+     width: 65%;
+}
+
+.skill-php {
+     width: 70%;
+}
+
+.skill-mysql {
+     width: 70%;
+}
+
+.skill-javascript {
+     width: 65%;
+}
+
+.skill-nodejs {
+     width: 50%;
+}
+
+.skill-comunicacion {
+     width: 75%;
+}
+
+.skill-equipo {
+     width: 85%;
+}
+
+.skill-creatividad {
+     width: 75%;
+}
+
+.skill-ingles {
+     width: 55%;
+}
+
+.skill-organizacion {
+     width: 80%;
+}
+
+.skill-liderazgo {
+     width: 80%;
+}
+
+.skill-versatilidad {
+     width: 75%;
+}
+
+.skill-photoshop {
+     width: 85%;
+}
+
+.skill-vscode {
+     width: 70%;
+}
+
+.skill-ubuntu {
+     width: 75%;
+}
+
+.skill-codeigniter {
+     width: 55%;
+}
+
+.skill-vue {
+     width: 25%;
+}
+
+.skill-git {
+     width: 70%;
+}
+
+.footer-container {
+     margin-top: 30px;
+     margin-bottom: 15px;
+}
+
+.footer-texto {
+     font-weight: 200;
+}
+
+#scroll-top {
+     display: block;
+}
+
+#scrollup {
+     color: #fff;
+     height: 45px;
+     width: 45px;
+     cursor: pointer;
+     font-size: 28px;
+     background: #07cb79;
+     border: 1px solid rgba(139, 218, 139, 0.699);
+     text-align: center;
+     position: fixed;
+     bottom: 21px;
+     right: 18px;
+     z-index: 5;
+     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+     display: none;
+     transition: .3s;
+     display: block;
+}
+
+
+/* TIMELINE */
+   
+.timeline {
+     position: relative;
+}
+
+.timeline::before {
+     content: '';
+     background: #0df794;
+     width: 7px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+}
+   
+.timeline-item {
+     width: 100%;
+     margin-bottom: 30px;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+     float: right;
+     padding: 40px 30px 10px 30px;
+}
+
+.timeline-item:nth-child(even) .timeline-content .date {
+     right: auto;
+     left: 0;
+     width: 100%;
+     text-align: left;
+     padding-left: 12px;
+     font-weight: 600;
+}
+
+.timeline-item:nth-child(even) .timeline-content::after {
+     content: '';
+     position: absolute;
+     border-style: solid;
+     width: 0;
+     height: 0;
+     top: 30px;
+     left: -15px;
+     border-width: 10px 15px 10px 0;
+     border-color: transparent #07cb79 transparent transparent;
+     margin-top: -20px;
+}
+
+.timeline-item::after {
+     content: '';
+     display: block;
+     clear: both;
+}
+
+.timeline-content {
+     position: relative;
+     width: 45%;
+     padding: 10px 30px;
+     padding-top: 40px;
+     border-radius: 4px;
+     background: white;
+     
+}
+
+.timeline-content::after {
+     content: '';
+     position: absolute;
+     border-style: solid;
+     width: 0;
+     height: 0;
+     top: 30px;
+     right: -15px;
+     border-width: 10px 0 10px 15px;
+     border-color: transparent transparent transparent #07cb79;
+     box-shadow: 0 20px 25px -15px rgba(182, 16, 16, 0.479);
+     margin-top: -20px;
+}
+
+.timeline-img {
+     width: 30px;
+     height: 30px;
+     background: #07cb79;
+     border-radius: 50%;
+     position: absolute;
+     left: 50%;
+     margin-top: 5px;
+     margin-left: -15px;
+}
+
+.timeline-card {
+     padding: 0;
+}
+
+.timeline-card p {
+     padding: 0 20px;
+}
+
+.timeline-card a {
+     margin-left: 20px;
+}
+
+
+.date {
+     background: #07cb79;
+     display: inline-block;
+     color: #FFFFFF;
+     padding: 10px;
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 100%;
+     text-align: right;
+     padding-right: 12px;
+     font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+     .date {
+          text-align: left;
+     }
+     .timeline::before {
+          left: 50px;
+     }
+     .timeline .timeline-img {
+          left: 50px;
+     }
+     .timeline .timeline-content {
+          max-width: 100%;
+          width: auto;
+          margin-left: 70px;
+     }
+     .timeline .timeline-item:nth-child(even) .timeline-content {
+          float: none;
+     }
+     .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+          content: '';
+          position: absolute;
+          border-style: solid;
+          width: 0;
+          height: 0;
+          top: 30px;
+          left: -15px;
+          border-width: 10px 15px 10px 0;
+          border-color: transparent #07cb79 transparent transparent;
+     }
+
+     div.timeline-item.evildesigns, div.timeline-item.deportivo-orihuela, div.timeline-item.nextel, div.timeline-item.orihuela-cultural, div.timeline-item.juguetilandia, div.timeline-item.beep, div.timeline-item.google-marketing, div.timeline-item.google-emprende, div.timeline-item.foto-isabel, div.timeline-item.foto-paco, div.timeline-item.musica-leganes, div.timeline-item.asi-modulo, div.timeline-item.bachillerato {
+          margin-top: 0px;
+     }
+     
+     
 }
